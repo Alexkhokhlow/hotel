@@ -1,0 +1,18 @@
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Временные файлы 1С
+*.log
+*.lgp
+*.v8x
+*.1cd
+*.1cv8
+*.1cv8c
+*.1cv8с
+dump/
+ConfigDumpInfo.xml
+
+# Файлы настроек пользователя 1С (опционально)
+*.pfl
