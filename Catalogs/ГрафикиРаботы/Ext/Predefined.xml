@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="873a6630-3e08-4081-ad5f-607a0b6f1c65">
+		<Name>Пятидневка</Name>
+		<Code>000000001</Code>
+		<Description>Пятидневка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0a6fa440-adfd-4122-afea-b97f0b5a74d2">
+		<Name>Сменный_1_3</Name>
+		<Code>000000003</Code>
+		<Description>Сменный 1 через 3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d4e2f464-47f4-4e66-9b16-9c150243e0c1">
+		<Name>Сменный_2_2</Name>
+		<Code>000000002</Code>
+		<Description>Сменный 2 через 2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

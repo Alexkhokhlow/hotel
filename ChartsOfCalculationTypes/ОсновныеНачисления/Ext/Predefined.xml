@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.20">
+	<Item id="e34fd6e1-452e-4f81-8e50-439ea45d99a5">
+		<Name>БольничныйЛист</Name>
+		<Code>0003</Code>
+		<Description>Больничный лист</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+	</Item>
+	<Item id="2ec796e4-b971-420a-b7f0-43f7b0168c38">
+		<Name>ОплатаПоОкладу</Name>
+		<Code>0001</Code>
+		<Description>Оплата по окладу</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Leading>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.БольничныйЛист</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Отпуск</CalculationType>
+		</Leading>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.БольничныйЛист</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.Отпуск</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="25170267-7786-4d45-8a23-332263cea2d8">
+		<Name>Отпуск</Name>
+		<Code>0004</Code>
+		<Description>Отпуск</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Leading>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.БольничныйЛист</CalculationType>
+		</Leading>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ОсновныеНачисления.БольничныйЛист</CalculationType>
+		</Displaced>
+	</Item>
+</PredefinedData>
